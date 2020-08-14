@@ -1,0 +1,19 @@
+.Modes{
+    display: flex;
+    justify-content: center;
+
+}
+
+.text, .draw{
+    margin: 10px;
+    height: 3vh;
+    width: 5vw;
+    background: white;
+    color: rgba(3, 150, 177,1);
+    font-weight:bold;
+}
+
+
+.bradius{
+    border-radius: 8px;
+}

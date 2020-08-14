@@ -1,0 +1,21 @@
+.writeStyle{
+    display: flex;
+    justify-content: center;
+}
+
+.dots,.numbers{
+    padding: 5px;
+    text-decoration: underline;
+    height: 6vh;
+}
+
+.numbers:hover,.dots:hover{
+    color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+ul,ol{
+    margin: 0;
+    height: 70vh;
+    padding-left: 4vw;
+}
