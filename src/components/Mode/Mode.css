@@ -13,6 +13,14 @@
     font-weight:bold;
 }
 
+.text:hover,.draw:hover{
+    color: rgba(3, 150, 177,0.5);
+    cursor: pointer;
+}
+
+.text:focus,.draw:focus{
+outline: none;
+}
 
 .bradius{
     border-radius: 8px;

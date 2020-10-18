@@ -1,21 +1,21 @@
-.writeStyle{
-    display: flex;
-    justify-content: center;
+.content{
+    padding-left: 20vw;
+}
+textarea{
+    width: 60vw;
+    height: 20vh;
+
 }
 
-.dots,.numbers{
-    padding: 5px;
-    text-decoration: underline;
-    height: 6vh;
-}
+.addButton{
+    background: rgba(1, 139, 165,1);
+    width: 5vw;
+    color: white;
+    font-family: fantasy;
+    
 
-.numbers:hover,.dots:hover{
-    color: rgba(0,0,0,0.5);
+}
+.addButton:hover{
     cursor: pointer;
-}
-
-ul,ol{
-    margin: 0;
-    height: 70vh;
-    padding-left: 4vw;
+    border: 1px solid blue;
 }

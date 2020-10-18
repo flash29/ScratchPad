@@ -1,52 +1,69 @@
-import React,{Component} from 'react';
-
+import React from 'react';
  import './Write.css';
 
-class Write extends Component {
-    constructor(){
-        super();
-        this.state={
-            type:'dots',
+function Write() {
+
+    //    var input = document.getElementById('text1');
+        var ul = document.querySelector('ul');
+    //    var li = document.getElementsByTagName('li');
+
+        // function onContentChange(e){
+        //     content.push(e.target.value)
+        // }
+        buttonListElement();
+
+        function checkInputlength(){
+        	return document.getElementById('text1').value.length;
         }
-    }
-    onChangeType=(el)=>{
-        console.log(el);
-        this.setState({type:el})
-    }
-    render(){
+
+
+        function createListElement(){
+
+        		var li = document.createElement("li");
+        		var button = document.createElement('button');
+        		li.appendChild(document.createTextNode(document.getElementById('text1').value));
+        		document.querySelector('ul').appendChild(li);
+        		li.appendChild(button)
+        		button.innerHTML = "delete";
+        		document.getElementById('text1').value = "";
+
+        		buttonListElement();
+        }
+
+
+        //for enter button
+        function onAddButton(){
+
+        	if(checkInputlength() > 0){
+        		createListElement();
+        	}
+
+        }
+
+
+
+        function buttonListElement(){
+        	var button = document.querySelectorAll('li button');
+        	for(let i=0; i<button.length; i++){
+        	button[i].addEventListener('click', clearElement)
+        	}
+        }
+
+        function clearElement(){
+        		this.parentNode.remove()
+        }
+
+
         return (
-          <div >
+          <div className='content'>
+                <textarea id='text1' />
+                <p className='addButton' onClick={()=>onAddButton()}>Add</p>
+                <ul></ul>
 
-            <div className="writeStyle">
-                <p className="dots" onClick={()=>this.onChangeType('dots')}>Dotted list </p>
-                <p className="numbers" onClick={()=>this.onChangeType('numbers')}>Numbered list</p>
-            </div>
-
-            <div className="content" >
-
-                {
-                    this.state.type==='dots'
-                    ?
-                    <div>
-                        <ul contentEditable="true" suppressContentEditableWarning={true}>
-                            <li > </li>
-
-                        </ul>
-                    </div>
-
-                    :
-                    <div>
-                        <ol contentEditable="true" suppressContentEditableWarning={true}>
-                            <li></li>
-                        </ol>
-                    </div>
-
-                }
-            </div>
 
          </div>
         );
-    }
+
 
 
 }
