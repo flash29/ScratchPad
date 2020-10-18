@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ScratchPad/static/css/main.b54a69c1.chunk.css",
-    "main.js": "/ScratchPad/static/js/main.b62a8ddf.chunk.js",
-    "main.js.map": "/ScratchPad/static/js/main.b62a8ddf.chunk.js.map",
+    "main.css": "/ScratchPad/static/css/main.930a6c67.chunk.css",
+    "main.js": "/ScratchPad/static/js/main.855bcdca.chunk.js",
+    "main.js.map": "/ScratchPad/static/js/main.855bcdca.chunk.js.map",
     "runtime-main.js": "/ScratchPad/static/js/runtime-main.805e2c8e.js",
     "runtime-main.js.map": "/ScratchPad/static/js/runtime-main.805e2c8e.js.map",
     "static/js/2.8428c97b.chunk.js": "/ScratchPad/static/js/2.8428c97b.chunk.js",
     "static/js/2.8428c97b.chunk.js.map": "/ScratchPad/static/js/2.8428c97b.chunk.js.map",
     "index.html": "/ScratchPad/index.html",
-    "precache-manifest.706fa2944eebe3f334430e8f8bd1e6df.js": "/ScratchPad/precache-manifest.706fa2944eebe3f334430e8f8bd1e6df.js",
+    "precache-manifest.8c030f2bb07b6ec19b1bed0eaf8a6be4.js": "/ScratchPad/precache-manifest.8c030f2bb07b6ec19b1bed0eaf8a6be4.js",
     "service-worker.js": "/ScratchPad/service-worker.js",
-    "static/css/main.b54a69c1.chunk.css.map": "/ScratchPad/static/css/main.b54a69c1.chunk.css.map",
+    "static/css/main.930a6c67.chunk.css.map": "/ScratchPad/static/css/main.930a6c67.chunk.css.map",
     "static/js/2.8428c97b.chunk.js.LICENSE.txt": "/ScratchPad/static/js/2.8428c97b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.805e2c8e.js",
     "static/js/2.8428c97b.chunk.js",
-    "static/css/main.b54a69c1.chunk.css",
-    "static/js/main.b62a8ddf.chunk.js"
+    "static/css/main.930a6c67.chunk.css",
+    "static/js/main.855bcdca.chunk.js"
   ]
 }

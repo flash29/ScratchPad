@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7472b048af8649361869e27f61cb5772",
+    "revision": "137410604b5c617674fd689bc26a2bc6",
     "url": "/ScratchPad/index.html"
   },
   {
-    "revision": "04ea175d0fd54d438845",
-    "url": "/ScratchPad/static/css/main.b54a69c1.chunk.css"
+    "revision": "a41f9e162f9e5649e0ba",
+    "url": "/ScratchPad/static/css/main.930a6c67.chunk.css"
   },
   {
     "revision": "69cc5646cd4bcb317780",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ScratchPad/static/js/2.8428c97b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "04ea175d0fd54d438845",
-    "url": "/ScratchPad/static/js/main.b62a8ddf.chunk.js"
+    "revision": "a41f9e162f9e5649e0ba",
+    "url": "/ScratchPad/static/js/main.855bcdca.chunk.js"
   },
   {
     "revision": "96fa39409b2d29cf359d",
